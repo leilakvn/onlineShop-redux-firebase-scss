@@ -1,0 +1,35 @@
+@use "../custom" as *;
+.footer {
+  background: $primary-color;
+  padding-top: 60px;
+  padding-bottom: 30px;
+
+  &__text {
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.74);
+  }
+}
+.footer__quick-links {
+  ul {
+    li {
+      background: transparent !important;
+      padding: 0 0 5px;
+      a {
+        color: rgba(255, 255, 255, 0.74);
+      }
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
+.quick__links-title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-style: 1.1rem;
+}
+.copyRight {
+  color: rgba(255, 255, 255, 0.74);
+  margin-top: 50px;
+  font-size: 0.9rem;
+}

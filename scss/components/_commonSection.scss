@@ -1,0 +1,30 @@
+.common__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.571)),
+    url("/src/assets/images/common-section.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .common__section {
+    padding: 70px 0;
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+  .review-rating {
+    gap: 5rem !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width:768px)  {
+  .review-rating {
+    gap: 2rem !important;
+  }
+}

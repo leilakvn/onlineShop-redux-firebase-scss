@@ -1,0 +1,12 @@
+@use "custom";
+@use "components/header";
+@use "./pages/home";
+@use "./services/services";
+@use "./components/productCard";
+@use "components/footer";
+@use "components/commonSection";
+@use "./pages/shop";
+@use "./pages/productDetails";
+@use "./pages/cart";
+@use "./pages/checkout";
+@use "./pages/login";

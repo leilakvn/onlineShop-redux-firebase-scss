@@ -1,0 +1,30 @@
+@use "../custom" as *;
+.formGroup {
+  input {
+    width: 100%;
+    border: 1px solid $card-bg-02;
+    padding: 4px;
+  }
+}
+.checkout__card {
+    background: $primary-color;
+    color: #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+  h6,h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+  h4{
+    border-top: 1px solid rgba(221,221,221,.253);
+    padding-top: 10px;
+  }
+  button{
+    background: #fff;
+    color:$primary-color;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}

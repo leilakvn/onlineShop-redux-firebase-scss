@@ -1,0 +1,19 @@
+@use "../custom" as *;
+.table {
+  img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+}
+td {
+  color: $primary-color;
+  i {
+    cursor: pointer;
+  }
+}
+.cart__content {
+  h2 {
+    text-align: center;
+  }
+}

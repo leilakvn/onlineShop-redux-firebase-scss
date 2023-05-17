@@ -1,0 +1,70 @@
+@use "../custom" as *;
+.services {
+  margin-top: 20px;
+}
+// .service__row{
+//     // column-gap: 7px;
+// }
+.service__item {
+  // background: $card-bg-01;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  border-radius: 5px;
+
+  cursor: pointer;
+  span i {
+    font-size: 2.2rem;
+    background-color: $primary-color;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 400 !important;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: $primary-color;
+  }
+  p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #222;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .service__item span i {
+    font-style: 1.8rem;
+    padding: 5px;
+  }
+  .service__item h3 {
+    font-size: 1rem;
+  }
+  .service__item {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .service__item {
+    margin-bottom: 1.5rem;
+  }
+  .service__item span i {
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .service__item {
+    margin-bottom: 1.5rem;
+  }
+  .service__item span i {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .service__item {
+    padding: 20px;
+  }
+}
